@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <main>
+        <!-- HEADER -->
+        <header>
+          <div class="menu">
+            <nav class="nav-list">
+                <a href="#home">Home</a>
+                <a href="#projects">Projetos</a>
+                <a href="#contact">Contato</a>
+            </nav>
+          </div>
+        </header>  
+        
+        <!-- HOME -->
+        <section id="home">
+          <div class="home-info">
+            <h2>Olá, sou o Leonardo</h2>
+            <span class="home-position">Desenvolvedor Front End</span>
+            <span class="home-resume">
+              Graduando em Sistemas de Informação,  
+              atualmente estou estudando e me aprimorando nas tecnologias front end web como: HTML5, CSS3 e 
+              JavaScript. Framework do CSS o Bootstrap - Lib do JS - React JS e o framework NextJS, junto com o 
+              TypeScript. 
+            </span>
+    
+            <button>
+              <a href="#contact">Contate-me</a>
+            </button>
+          </div>
+          <div class="home-img">
+            <img src="./projetos/foto2.jpg" alt="Foto de perfil">
+          </div>
+        </section>
+    
+        <!-- PROJECTS -->
+    
+        <section id="projects">
+          <h2>Projetos</h2>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="project-img">
+                 
+                </div>
+                <div class="project-info">
+                  <h2>Projeto Calculadora IMC</h2>
+                  <img src="./projetos/image1.png" alt="calculadora imc">
+                  <p>calculadora para medir o imc</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="project-img">
+                </div>
+                <div class="project-info">
+                  <h2>Projeto Landing page</h2>
+                  <img src="./projetos/Image_1.png" alt="landing page">
+                  <p>Uma landing page fictícia de um local de um evento fictício sobre o tema de designs de interiores</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="project-img">
+                </div>
+                <div class="project-info">
+                  <h2>Slider de Imagens</h2>
+                  <img src="./projetos/Image_3.png" alt="logo premier league">
+                  <p>Slider de imagens onde o usuário pode passar para o lado as imagens</p>
+                </div>
+              </div>
+            </div>
+          
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+    
+      <!-- CONTACT -->
+    
+      <section id="contact">
+        <h2>Contato</h2>
+        <form>
+          <input type="text" placeholder="Digite seu nome" />
+          <input type="email" placeholder="Digite seu e-mail" />
+          <textarea cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+          <button>Enviar</button>
+        </form>
+      </section>
+
+      <p>
+        Obs: Esses projetos podem ser encontrados em meu Github, onde estão todos bem explicados e documentados com o Readme.
+     <br>Obs2: Este portfólio ainda precisa ser melhorado ainda, ainda falta mais informações para ser colocados aqui, 
+        mas esse aqui é apenas uma apresentação pessoal minha bem simples ainda!<br>
+      </p>
+    
+      <footer>
+        copyright © 2022 Leonardo Santana. Todos os direitos reservados
+      </footer>
+      </main>  
+    
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script src="index.js"></script>
+
+</body>
+</html>
